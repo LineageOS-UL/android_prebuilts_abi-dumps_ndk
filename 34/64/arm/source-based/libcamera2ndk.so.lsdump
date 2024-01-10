@@ -158,9 +158,6 @@
    "name" : "ACameraCaptureSession_capture"
   },
   {
-   "name" : "ACameraCaptureSession_captureV2"
-  },
-  {
    "name" : "ACameraCaptureSession_close"
   },
   {
@@ -170,25 +167,10 @@
    "name" : "ACameraCaptureSession_logicalCamera_capture"
   },
   {
-   "name" : "ACameraCaptureSession_logicalCamera_captureV2"
-  },
-  {
    "name" : "ACameraCaptureSession_logicalCamera_setRepeatingRequest"
   },
   {
-   "name" : "ACameraCaptureSession_logicalCamera_setRepeatingRequestV2"
-  },
-  {
-   "name" : "ACameraCaptureSession_prepareWindow"
-  },
-  {
    "name" : "ACameraCaptureSession_setRepeatingRequest"
-  },
-  {
-   "name" : "ACameraCaptureSession_setRepeatingRequestV2"
-  },
-  {
-   "name" : "ACameraCaptureSession_setWindowPreparedCallback"
   },
   {
    "name" : "ACameraCaptureSession_stopRepeating"
@@ -1031,27 +1013,7 @@
      "name" : "ACAMERA_CONTROL_ZOOM_RATIO"
     },
     {
-     "enum_field_value" : 65585,
-     "name" : "ACAMERA_CONTROL_SETTINGS_OVERRIDE"
-    },
-    {
-     "enum_field_value" : 65586,
-     "name" : "ACAMERA_CONTROL_AVAILABLE_SETTINGS_OVERRIDES"
-    },
-    {
-     "enum_field_value" : 65588,
-     "name" : "ACAMERA_CONTROL_AUTOFRAMING"
-    },
-    {
-     "enum_field_value" : 65589,
-     "name" : "ACAMERA_CONTROL_AUTOFRAMING_AVAILABLE"
-    },
-    {
-     "enum_field_value" : 65590,
-     "name" : "ACAMERA_CONTROL_AUTOFRAMING_STATE"
-    },
-    {
-     "enum_field_value" : 65591,
+     "enum_field_value" : 65584,
      "name" : "ACAMERA_CONTROL_END"
     },
     {
@@ -1083,15 +1045,7 @@
      "name" : "ACAMERA_FLASH_INFO_AVAILABLE"
     },
     {
-     "enum_field_value" : 327682,
-     "name" : "ACAMERA_FLASH_INFO_STRENGTH_MAXIMUM_LEVEL"
-    },
-    {
-     "enum_field_value" : 327683,
-     "name" : "ACAMERA_FLASH_INFO_STRENGTH_DEFAULT_LEVEL"
-    },
-    {
-     "enum_field_value" : 327684,
+     "enum_field_value" : 327681,
      "name" : "ACAMERA_FLASH_INFO_END"
     },
     {
@@ -1299,15 +1253,7 @@
      "name" : "ACAMERA_REQUEST_AVAILABLE_PHYSICAL_CAMERA_REQUEST_KEYS"
     },
     {
-     "enum_field_value" : 786451,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP"
-    },
-    {
-     "enum_field_value" : 786453,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_COLOR_SPACE_PROFILES_MAP"
-    },
-    {
-     "enum_field_value" : 786454,
+     "enum_field_value" : 786450,
      "name" : "ACAMERA_REQUEST_END"
     },
     {
@@ -1376,14 +1322,6 @@
     },
     {
      "enum_field_value" : 851993,
-     "name" : "ACAMERA_SCALER_AVAILABLE_STREAM_USE_CASES"
-    },
-    {
-     "enum_field_value" : 851994,
-     "name" : "ACAMERA_SCALER_RAW_CROP_REGION"
-    },
-    {
-     "enum_field_value" : 851995,
      "name" : "ACAMERA_SCALER_END"
     },
     {
@@ -1845,50 +1783,6 @@
     {
      "enum_field_value" : 1835014,
      "name" : "ACAMERA_HEIC_END"
-    },
-    {
-     "enum_field_value" : 1966080,
-     "name" : "ACAMERA_AUTOMOTIVE_LOCATION"
-    },
-    {
-     "enum_field_value" : 1966081,
-     "name" : "ACAMERA_AUTOMOTIVE_END"
-    },
-    {
-     "enum_field_value" : 2031616,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING"
-    },
-    {
-     "enum_field_value" : 2031617,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_END"
-    },
-    {
-     "enum_field_value" : 2162688,
-     "name" : "ACAMERA_JPEGR_AVAILABLE_JPEG_R_STREAM_CONFIGURATIONS"
-    },
-    {
-     "enum_field_value" : 2162689,
-     "name" : "ACAMERA_JPEGR_AVAILABLE_JPEG_R_MIN_FRAME_DURATIONS"
-    },
-    {
-     "enum_field_value" : 2162690,
-     "name" : "ACAMERA_JPEGR_AVAILABLE_JPEG_R_STALL_DURATIONS"
-    },
-    {
-     "enum_field_value" : 2162691,
-     "name" : "ACAMERA_JPEGR_AVAILABLE_JPEG_R_STREAM_CONFIGURATIONS_MAXIMUM_RESOLUTION"
-    },
-    {
-     "enum_field_value" : 2162692,
-     "name" : "ACAMERA_JPEGR_AVAILABLE_JPEG_R_MIN_FRAME_DURATIONS_MAXIMUM_RESOLUTION"
-    },
-    {
-     "enum_field_value" : 2162693,
-     "name" : "ACAMERA_JPEGR_AVAILABLE_JPEG_R_STALL_DURATIONS_MAXIMUM_RESOLUTION"
-    },
-    {
-     "enum_field_value" : 2162694,
-     "name" : "ACAMERA_JPEGR_END"
     }
    ],
    "linker_set_key" : "_ZTI20acamera_metadata_tag",
@@ -2151,22 +2045,6 @@
     },
     {
      "enum_field_value" : 30,
-     "name" : "ACAMERA_AUTOMOTIVE"
-    },
-    {
-     "enum_field_value" : 31,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS"
-    },
-    {
-     "enum_field_value" : 32,
-     "name" : "ACAMERA_EXTENSION"
-    },
-    {
-     "enum_field_value" : 33,
-     "name" : "ACAMERA_JPEGR"
-    },
-    {
-     "enum_field_value" : 34,
      "name" : "ACAMERA_SECTION_COUNT"
     },
     {
@@ -2725,22 +2603,6 @@
     {
      "enum_field_value" : 1900544,
      "name" : "ACAMERA_HEIC_INFO_START"
-    },
-    {
-     "enum_field_value" : 1966080,
-     "name" : "ACAMERA_AUTOMOTIVE_START"
-    },
-    {
-     "enum_field_value" : 2031616,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_START"
-    },
-    {
-     "enum_field_value" : 2097152,
-     "name" : "ACAMERA_EXTENSION_START"
-    },
-    {
-     "enum_field_value" : 2162688,
-     "name" : "ACAMERA_JPEGR_START"
     },
     {
      "enum_field_value" : -2147483648,
@@ -3835,84 +3697,6 @@
    [
     {
      "enum_field_value" : 0,
-     "name" : "ACAMERA_AUTOMOTIVE_LOCATION_INTERIOR"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ACAMERA_AUTOMOTIVE_LOCATION_EXTERIOR_OTHER"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "ACAMERA_AUTOMOTIVE_LOCATION_EXTERIOR_FRONT"
-    },
-    {
-     "enum_field_value" : 3,
-     "name" : "ACAMERA_AUTOMOTIVE_LOCATION_EXTERIOR_REAR"
-    },
-    {
-     "enum_field_value" : 4,
-     "name" : "ACAMERA_AUTOMOTIVE_LOCATION_EXTERIOR_LEFT"
-    },
-    {
-     "enum_field_value" : 5,
-     "name" : "ACAMERA_AUTOMOTIVE_LOCATION_EXTERIOR_RIGHT"
-    },
-    {
-     "enum_field_value" : 6,
-     "name" : "ACAMERA_AUTOMOTIVE_LOCATION_EXTRA_OTHER"
-    },
-    {
-     "enum_field_value" : 7,
-     "name" : "ACAMERA_AUTOMOTIVE_LOCATION_EXTRA_FRONT"
-    },
-    {
-     "enum_field_value" : 8,
-     "name" : "ACAMERA_AUTOMOTIVE_LOCATION_EXTRA_REAR"
-    },
-    {
-     "enum_field_value" : 9,
-     "name" : "ACAMERA_AUTOMOTIVE_LOCATION_EXTRA_LEFT"
-    },
-    {
-     "enum_field_value" : 10,
-     "name" : "ACAMERA_AUTOMOTIVE_LOCATION_EXTRA_RIGHT"
-    }
-   ],
-   "linker_set_key" : "_ZTI49acamera_metadata_enum_acamera_automotive_location",
-   "name" : "acamera_metadata_enum_acamera_automotive_location",
-   "referenced_type" : "_ZTI49acamera_metadata_enum_acamera_automotive_location",
-   "self_type" : "_ZTI49acamera_metadata_enum_acamera_automotive_location",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "ACAMERA_CONTROL_AUTOFRAMING_OFF"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ACAMERA_CONTROL_AUTOFRAMING_ON"
-    }
-   ],
-   "linker_set_key" : "_ZTI49acamera_metadata_enum_acamera_control_autoframing",
-   "name" : "acamera_metadata_enum_acamera_control_autoframing",
-   "referenced_type" : "_ZTI49acamera_metadata_enum_acamera_control_autoframing",
-   "self_type" : "_ZTI49acamera_metadata_enum_acamera_control_autoframing",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
      "name" : "ACAMERA_CONTROL_EFFECT_MODE_OFF"
     },
     {
@@ -3971,10 +3755,6 @@
     {
      "enum_field_value" : 2,
      "name" : "ACAMERA_LENS_POSE_REFERENCE_UNDEFINED"
-    },
-    {
-     "enum_field_value" : 3,
-     "name" : "ACAMERA_LENS_POSE_REFERENCE_AUTOMOTIVE"
     }
    ],
    "linker_set_key" : "_ZTI49acamera_metadata_enum_acamera_lens_pose_reference",
@@ -4102,79 +3882,6 @@
    "name" : "acamera_metadata_enum_acamera_color_correction_mode",
    "referenced_type" : "_ZTI51acamera_metadata_enum_acamera_color_correction_mode",
    "self_type" : "_ZTI51acamera_metadata_enum_acamera_color_correction_mode",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_EXTERIOR_OTHER"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_EXTERIOR_FRONT"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_EXTERIOR_REAR"
-    },
-    {
-     "enum_field_value" : 3,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_EXTERIOR_LEFT"
-    },
-    {
-     "enum_field_value" : 4,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_EXTERIOR_RIGHT"
-    },
-    {
-     "enum_field_value" : 5,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_INTERIOR_OTHER"
-    },
-    {
-     "enum_field_value" : 6,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_INTERIOR_SEAT_ROW_1_LEFT"
-    },
-    {
-     "enum_field_value" : 7,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_INTERIOR_SEAT_ROW_1_CENTER"
-    },
-    {
-     "enum_field_value" : 8,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_INTERIOR_SEAT_ROW_1_RIGHT"
-    },
-    {
-     "enum_field_value" : 9,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_INTERIOR_SEAT_ROW_2_LEFT"
-    },
-    {
-     "enum_field_value" : 10,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_INTERIOR_SEAT_ROW_2_CENTER"
-    },
-    {
-     "enum_field_value" : 11,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_INTERIOR_SEAT_ROW_2_RIGHT"
-    },
-    {
-     "enum_field_value" : 12,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_INTERIOR_SEAT_ROW_3_LEFT"
-    },
-    {
-     "enum_field_value" : 13,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_INTERIOR_SEAT_ROW_3_CENTER"
-    },
-    {
-     "enum_field_value" : 14,
-     "name" : "ACAMERA_AUTOMOTIVE_LENS_FACING_INTERIOR_SEAT_ROW_3_RIGHT"
-    }
-   ],
-   "linker_set_key" : "_ZTI52acamera_metadata_enum_acamera_automotive_lens_facing",
-   "name" : "acamera_metadata_enum_acamera_automotive_lens_facing",
-   "referenced_type" : "_ZTI52acamera_metadata_enum_acamera_automotive_lens_facing",
-   "self_type" : "_ZTI52acamera_metadata_enum_acamera_automotive_lens_facing",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4399,52 +4106,6 @@
    "name" : "acamera_metadata_enum_acamera_control_ae_lock_available",
    "referenced_type" : "_ZTI55acamera_metadata_enum_acamera_control_ae_lock_available",
    "self_type" : "_ZTI55acamera_metadata_enum_acamera_control_ae_lock_available",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "ACAMERA_CONTROL_AUTOFRAMING_STATE_INACTIVE"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ACAMERA_CONTROL_AUTOFRAMING_STATE_FRAMING"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "ACAMERA_CONTROL_AUTOFRAMING_STATE_CONVERGED"
-    }
-   ],
-   "linker_set_key" : "_ZTI55acamera_metadata_enum_acamera_control_autoframing_state",
-   "name" : "acamera_metadata_enum_acamera_control_autoframing_state",
-   "referenced_type" : "_ZTI55acamera_metadata_enum_acamera_control_autoframing_state",
-   "self_type" : "_ZTI55acamera_metadata_enum_acamera_control_autoframing_state",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "ACAMERA_CONTROL_SETTINGS_OVERRIDE_OFF"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ACAMERA_CONTROL_SETTINGS_OVERRIDE_ZOOM"
-    }
-   ],
-   "linker_set_key" : "_ZTI55acamera_metadata_enum_acamera_control_settings_override",
-   "name" : "acamera_metadata_enum_acamera_control_settings_override",
-   "referenced_type" : "_ZTI55acamera_metadata_enum_acamera_control_settings_override",
-   "self_type" : "_ZTI55acamera_metadata_enum_acamera_control_settings_override",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4715,27 +4376,6 @@
    [
     {
      "enum_field_value" : 0,
-     "name" : "ACAMERA_CONTROL_AUTOFRAMING_AVAILABLE_FALSE"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ACAMERA_CONTROL_AUTOFRAMING_AVAILABLE_TRUE"
-    }
-   ],
-   "linker_set_key" : "_ZTI59acamera_metadata_enum_acamera_control_autoframing_available",
-   "name" : "acamera_metadata_enum_acamera_control_autoframing_available",
-   "referenced_type" : "_ZTI59acamera_metadata_enum_acamera_control_autoframing_available",
-   "self_type" : "_ZTI59acamera_metadata_enum_acamera_control_autoframing_available",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
      "name" : "ACAMERA_INFO_SUPPORTED_HARDWARE_LEVEL_LIMITED"
     },
     {
@@ -4839,10 +4479,6 @@
     {
      "enum_field_value" : 16,
      "name" : "ACAMERA_REQUEST_AVAILABLE_CAPABILITIES_ULTRA_HIGH_RESOLUTION_SENSOR"
-    },
-    {
-     "enum_field_value" : 19,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_CAPABILITIES_STREAM_USE_CASE"
     }
    ],
    "linker_set_key" : "_ZTI60acamera_metadata_enum_acamera_request_available_capabilities",
@@ -4931,10 +4567,6 @@
     {
      "enum_field_value" : 1,
      "name" : "ACAMERA_CONTROL_VIDEO_STABILIZATION_MODE_ON"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "ACAMERA_CONTROL_VIDEO_STABILIZATION_MODE_PREVIEW_STABILIZATION"
     }
    ],
    "linker_set_key" : "_ZTI62acamera_metadata_enum_acamera_control_video_stabilization_mode",
@@ -4983,47 +4615,6 @@
    "name" : "acamera_metadata_enum_acamera_statistics_lens_shading_map_mode",
    "referenced_type" : "_ZTI62acamera_metadata_enum_acamera_statistics_lens_shading_map_mode",
    "self_type" : "_ZTI62acamera_metadata_enum_acamera_statistics_lens_shading_map_mode",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "ACAMERA_SCALER_AVAILABLE_STREAM_USE_CASES_DEFAULT"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ACAMERA_SCALER_AVAILABLE_STREAM_USE_CASES_PREVIEW"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "ACAMERA_SCALER_AVAILABLE_STREAM_USE_CASES_STILL_CAPTURE"
-    },
-    {
-     "enum_field_value" : 3,
-     "name" : "ACAMERA_SCALER_AVAILABLE_STREAM_USE_CASES_VIDEO_RECORD"
-    },
-    {
-     "enum_field_value" : 4,
-     "name" : "ACAMERA_SCALER_AVAILABLE_STREAM_USE_CASES_PREVIEW_VIDEO_STILL"
-    },
-    {
-     "enum_field_value" : 5,
-     "name" : "ACAMERA_SCALER_AVAILABLE_STREAM_USE_CASES_VIDEO_CALL"
-    },
-    {
-     "enum_field_value" : 6,
-     "name" : "ACAMERA_SCALER_AVAILABLE_STREAM_USE_CASES_CROPPED_RAW"
-    }
-   ],
-   "linker_set_key" : "_ZTI63acamera_metadata_enum_acamera_scaler_available_stream_use_cases",
-   "name" : "acamera_metadata_enum_acamera_scaler_available_stream_use_cases",
-   "referenced_type" : "_ZTI63acamera_metadata_enum_acamera_scaler_available_stream_use_cases",
-   "self_type" : "_ZTI63acamera_metadata_enum_acamera_scaler_available_stream_use_cases",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5183,35 +4774,6 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : -1,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_COLOR_SPACE_PROFILES_MAP_UNSPECIFIED"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_COLOR_SPACE_PROFILES_MAP_SRGB"
-    },
-    {
-     "enum_field_value" : 7,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_COLOR_SPACE_PROFILES_MAP_DISPLAY_P3"
-    },
-    {
-     "enum_field_value" : 16,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_COLOR_SPACE_PROFILES_MAP_BT2020_HLG"
-    }
-   ],
-   "linker_set_key" : "_ZTI72acamera_metadata_enum_acamera_request_available_color_space_profiles_map",
-   "name" : "acamera_metadata_enum_acamera_request_available_color_space_profiles_map",
-   "referenced_type" : "_ZTI72acamera_metadata_enum_acamera_request_available_color_space_profiles_map",
-   "self_type" : "_ZTI72acamera_metadata_enum_acamera_request_available_color_space_profiles_map",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
-   "underlying_type" : "_ZTIi"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
      "enum_field_value" : 0,
      "name" : "ACAMERA_DEPTH_AVAILABLE_DEPTH_STREAM_CONFIGURATIONS_OUTPUT"
     },
@@ -5224,92 +4786,6 @@
    "name" : "acamera_metadata_enum_acamera_depth_available_depth_stream_configurations",
    "referenced_type" : "_ZTI73acamera_metadata_enum_acamera_depth_available_depth_stream_configurations",
    "self_type" : "_ZTI73acamera_metadata_enum_acamera_depth_available_depth_stream_configurations",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "ACAMERA_JPEGR_AVAILABLE_JPEG_R_STREAM_CONFIGURATIONS_OUTPUT"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ACAMERA_JPEGR_AVAILABLE_JPEG_R_STREAM_CONFIGURATIONS_INPUT"
-    }
-   ],
-   "linker_set_key" : "_ZTI74acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations",
-   "name" : "acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations",
-   "referenced_type" : "_ZTI74acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations",
-   "self_type" : "_ZTI74acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 1,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_STANDARD"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_HLG10"
-    },
-    {
-     "enum_field_value" : 4,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_HDR10"
-    },
-    {
-     "enum_field_value" : 8,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_HDR10_PLUS"
-    },
-    {
-     "enum_field_value" : 16,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_DOLBY_VISION_10B_HDR_REF"
-    },
-    {
-     "enum_field_value" : 32,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_DOLBY_VISION_10B_HDR_REF_PO"
-    },
-    {
-     "enum_field_value" : 64,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_DOLBY_VISION_10B_HDR_OEM"
-    },
-    {
-     "enum_field_value" : 128,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_DOLBY_VISION_10B_HDR_OEM_PO"
-    },
-    {
-     "enum_field_value" : 256,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_DOLBY_VISION_8B_HDR_REF"
-    },
-    {
-     "enum_field_value" : 512,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_DOLBY_VISION_8B_HDR_REF_PO"
-    },
-    {
-     "enum_field_value" : 1024,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_DOLBY_VISION_8B_HDR_OEM"
-    },
-    {
-     "enum_field_value" : 2048,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_DOLBY_VISION_8B_HDR_OEM_PO"
-    },
-    {
-     "enum_field_value" : 4096,
-     "name" : "ACAMERA_REQUEST_AVAILABLE_DYNAMIC_RANGE_PROFILES_MAP_MAX"
-    }
-   ],
-   "linker_set_key" : "_ZTI74acamera_metadata_enum_acamera_request_available_dynamic_range_profiles_map",
-   "name" : "acamera_metadata_enum_acamera_request_available_dynamic_range_profiles_map",
-   "referenced_type" : "_ZTI74acamera_metadata_enum_acamera_request_available_dynamic_range_profiles_map",
-   "self_type" : "_ZTI74acamera_metadata_enum_acamera_request_available_dynamic_range_profiles_map",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5349,14 +4825,6 @@
     {
      "enum_field_value" : 7,
      "name" : "ACAMERA_SCALER_AVAILABLE_RECOMMENDED_STREAM_CONFIGURATIONS_PUBLIC_END"
-    },
-    {
-     "enum_field_value" : 8,
-     "name" : "ACAMERA_SCALER_AVAILABLE_RECOMMENDED_STREAM_CONFIGURATIONS_10BIT_OUTPUT"
-    },
-    {
-     "enum_field_value" : 9,
-     "name" : "ACAMERA_SCALER_AVAILABLE_RECOMMENDED_STREAM_CONFIGURATIONS_PUBLIC_END_3_8"
     },
     {
      "enum_field_value" : 24,
@@ -5472,27 +4940,6 @@
    "name" : "acamera_metadata_enum_acamera_depth_available_depth_stream_configurations_maximum_resolution",
    "referenced_type" : "_ZTI92acamera_metadata_enum_acamera_depth_available_depth_stream_configurations_maximum_resolution",
    "self_type" : "_ZTI92acamera_metadata_enum_acamera_depth_available_depth_stream_configurations_maximum_resolution",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "ACAMERA_JPEGR_AVAILABLE_JPEG_R_STREAM_CONFIGURATIONS_MAXIMUM_RESOLUTION_OUTPUT"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ACAMERA_JPEGR_AVAILABLE_JPEG_R_STREAM_CONFIGURATIONS_MAXIMUM_RESOLUTION_INPUT"
-    }
-   ],
-   "linker_set_key" : "_ZTI93acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations_maximum_resolution",
-   "name" : "acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations_maximum_resolution",
-   "referenced_type" : "_ZTI93acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations_maximum_resolution",
-   "self_type" : "_ZTI93acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations_maximum_resolution",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5706,27 +5153,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFvPvP13ANativeWindowP21ACameraCaptureSessionE",
-   "name" : "void (void *, ANativeWindow *, ACameraCaptureSession *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "referenced_type" : "_ZTIP13ANativeWindow"
-    },
-    {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession"
-    }
-   ],
-   "referenced_type" : "_ZTIFvPvP13ANativeWindowP21ACameraCaptureSessionE",
-   "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP13ANativeWindowP21ACameraCaptureSessionE",
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIFvPvP21ACameraCaptureSessionE",
    "name" : "void (void *, ACameraCaptureSession *)",
    "parameters" :
@@ -5901,33 +5327,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE",
-   "name" : "void (void *, ACameraCaptureSession *, const ACaptureRequest *, long long, long long)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession"
-    },
-    {
-     "referenced_type" : "_ZTIPK15ACaptureRequest"
-    },
-    {
-     "referenced_type" : "_ZTIx"
-    },
-    {
-     "referenced_type" : "_ZTIx"
-    }
-   ],
-   "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE",
-   "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE",
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIFvPvP21ACameraCaptureSessioniE",
    "name" : "void (void *, ACameraCaptureSession *, int)",
    "parameters" :
@@ -6050,30 +5449,6 @@
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
-   "function_name" : "ACameraCaptureSession_captureV2",
-   "linker_set_key" : "ACameraCaptureSession_captureV2",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession"
-    },
-    {
-     "referenced_type" : "_ZTIP40ACameraCaptureSession_captureCallbacksV2"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIPP15ACaptureRequest"
-    },
-    {
-     "referenced_type" : "_ZTIPi"
-    }
-   ],
-   "return_type" : "_ZTI15camera_status_t",
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
    "function_name" : "ACameraCaptureSession_close",
    "linker_set_key" : "ACameraCaptureSession_close",
    "parameters" :
@@ -6125,30 +5500,6 @@
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
-   "function_name" : "ACameraCaptureSession_logicalCamera_captureV2",
-   "linker_set_key" : "ACameraCaptureSession_logicalCamera_captureV2",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession"
-    },
-    {
-     "referenced_type" : "_ZTIP54ACameraCaptureSession_logicalCamera_captureCallbacksV2"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIPP15ACaptureRequest"
-    },
-    {
-     "referenced_type" : "_ZTIPi"
-    }
-   ],
-   "return_type" : "_ZTI15camera_status_t",
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
    "function_name" : "ACameraCaptureSession_logicalCamera_setRepeatingRequest",
    "linker_set_key" : "ACameraCaptureSession_logicalCamera_setRepeatingRequest",
    "parameters" :
@@ -6173,45 +5524,6 @@
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
-   "function_name" : "ACameraCaptureSession_logicalCamera_setRepeatingRequestV2",
-   "linker_set_key" : "ACameraCaptureSession_logicalCamera_setRepeatingRequestV2",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession"
-    },
-    {
-     "referenced_type" : "_ZTIP54ACameraCaptureSession_logicalCamera_captureCallbacksV2"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIPP15ACaptureRequest"
-    },
-    {
-     "referenced_type" : "_ZTIPi"
-    }
-   ],
-   "return_type" : "_ZTI15camera_status_t",
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "function_name" : "ACameraCaptureSession_prepareWindow",
-   "linker_set_key" : "ACameraCaptureSession_prepareWindow",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession"
-    },
-    {
-     "referenced_type" : "_ZTIP13ANativeWindow"
-    }
-   ],
-   "return_type" : "_ZTI15camera_status_t",
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
    "function_name" : "ACameraCaptureSession_setRepeatingRequest",
    "linker_set_key" : "ACameraCaptureSession_setRepeatingRequest",
    "parameters" :
@@ -6230,48 +5542,6 @@
     },
     {
      "referenced_type" : "_ZTIPi"
-    }
-   ],
-   "return_type" : "_ZTI15camera_status_t",
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "function_name" : "ACameraCaptureSession_setRepeatingRequestV2",
-   "linker_set_key" : "ACameraCaptureSession_setRepeatingRequestV2",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession"
-    },
-    {
-     "referenced_type" : "_ZTIP40ACameraCaptureSession_captureCallbacksV2"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIPP15ACaptureRequest"
-    },
-    {
-     "referenced_type" : "_ZTIPi"
-    }
-   ],
-   "return_type" : "_ZTI15camera_status_t",
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "function_name" : "ACameraCaptureSession_setWindowPreparedCallback",
-   "linker_set_key" : "ACameraCaptureSession_setWindowPreparedCallback",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "referenced_type" : "_ZTIPFvPvP13ANativeWindowP21ACameraCaptureSessionE"
     }
    ],
    "return_type" : "_ZTI15camera_status_t",
@@ -7415,28 +6685,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIP40ACameraCaptureSession_captureCallbacksV2",
-   "name" : "ACameraCaptureSession_captureCallbacksV2 *",
-   "referenced_type" : "_ZTI40ACameraCaptureSession_captureCallbacksV2",
-   "self_type" : "_ZTIP40ACameraCaptureSession_captureCallbacksV2",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIP52ACameraCaptureSession_logicalCamera_captureCallbacks",
    "name" : "ACameraCaptureSession_logicalCamera_captureCallbacks *",
    "referenced_type" : "_ZTI52ACameraCaptureSession_logicalCamera_captureCallbacks",
    "self_type" : "_ZTIP52ACameraCaptureSession_logicalCamera_captureCallbacks",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIP54ACameraCaptureSession_logicalCamera_captureCallbacksV2",
-   "name" : "ACameraCaptureSession_logicalCamera_captureCallbacksV2 *",
-   "referenced_type" : "_ZTI54ACameraCaptureSession_logicalCamera_captureCallbacksV2",
-   "self_type" : "_ZTIP54ACameraCaptureSession_logicalCamera_captureCallbacksV2",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7559,15 +6811,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPFvPvP13ANativeWindowP21ACameraCaptureSessionE",
-   "name" : "void (*)(void *, ANativeWindow *, ACameraCaptureSession *)",
-   "referenced_type" : "_ZTIFvPvP13ANativeWindowP21ACameraCaptureSessionE",
-   "self_type" : "_ZTIPFvPvP13ANativeWindowP21ACameraCaptureSessionE",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPFvPvP21ACameraCaptureSessionE",
    "name" : "void (*)(void *, ACameraCaptureSession *)",
    "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionE",
@@ -7626,15 +6869,6 @@
    "name" : "void (*)(void *, ACameraCaptureSession *, const ACaptureRequest *, long long)",
    "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionPK15ACaptureRequestxE",
    "self_type" : "_ZTIPFvPvP21ACameraCaptureSessionPK15ACaptureRequestxE",
-   "size" : 4,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE",
-   "name" : "void (*)(void *, ACameraCaptureSession *, const ACaptureRequest *, long long, long long)",
-   "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE",
-   "self_type" : "_ZTIPFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -8965,57 +8199,6 @@
    "fields" :
    [
     {
-     "field_name" : "context",
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "field_name" : "onCaptureStarted",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE"
-    },
-    {
-     "field_name" : "onCaptureProgressed",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadataE"
-    },
-    {
-     "field_name" : "onCaptureCompleted",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadataE"
-    },
-    {
-     "field_name" : "onCaptureFailed",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestP21ACameraCaptureFailureE"
-    },
-    {
-     "field_name" : "onCaptureSequenceCompleted",
-     "field_offset" : 160,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessionixE"
-    },
-    {
-     "field_name" : "onCaptureSequenceAborted",
-     "field_offset" : 192,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessioniE"
-    },
-    {
-     "field_name" : "onCaptureBufferLost",
-     "field_offset" : 224,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestP13ANativeWindowxE"
-    }
-   ],
-   "linker_set_key" : "_ZTI40ACameraCaptureSession_captureCallbacksV2",
-   "name" : "ACameraCaptureSession_captureCallbacksV2",
-   "referenced_type" : "_ZTI40ACameraCaptureSession_captureCallbacksV2",
-   "self_type" : "_ZTI40ACameraCaptureSession_captureCallbacksV2",
-   "size" : 32,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
      "field_name" : "availabilityCallbacks",
      "referenced_type" : "_ZTI35ACameraManager_AvailabilityListener"
     },
@@ -9095,57 +8278,6 @@
    "name" : "ACameraCaptureSession_logicalCamera_captureCallbacks",
    "referenced_type" : "_ZTI52ACameraCaptureSession_logicalCamera_captureCallbacks",
    "self_type" : "_ZTI52ACameraCaptureSession_logicalCamera_captureCallbacks",
-   "size" : 32,
-   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "context",
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "field_name" : "onCaptureStarted",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE"
-    },
-    {
-     "field_name" : "onCaptureProgressed",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadataE"
-    },
-    {
-     "field_name" : "onLogicalCameraCaptureCompleted",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadatajPPKcPS6_E"
-    },
-    {
-     "field_name" : "onLogicalCameraCaptureFailed",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestP28ALogicalCameraCaptureFailureE"
-    },
-    {
-     "field_name" : "onCaptureSequenceCompleted",
-     "field_offset" : 160,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessionixE"
-    },
-    {
-     "field_name" : "onCaptureSequenceAborted",
-     "field_offset" : 192,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessioniE"
-    },
-    {
-     "field_name" : "onCaptureBufferLost",
-     "field_offset" : 224,
-     "referenced_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestP13ANativeWindowxE"
-    }
-   ],
-   "linker_set_key" : "_ZTI54ACameraCaptureSession_logicalCamera_captureCallbacksV2",
-   "name" : "ACameraCaptureSession_logicalCamera_captureCallbacksV2",
-   "referenced_type" : "_ZTI54ACameraCaptureSession_logicalCamera_captureCallbacksV2",
-   "self_type" : "_ZTI54ACameraCaptureSession_logicalCamera_captureCallbacksV2",
    "size" : 32,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
